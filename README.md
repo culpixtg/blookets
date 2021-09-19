@@ -1,2 +1,1 @@
-# blooket-cheat
-Multiple exploits that breaks the game
+All of these cheats are based on a game mode
