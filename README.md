@@ -1,4 +1,4 @@
-# blooket-cheat
+# blooket-hacks
 All of these cheats are based on a game mode
 
 
