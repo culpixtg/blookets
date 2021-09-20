@@ -1,5 +1,7 @@
 # blooket-hacks
-All of these cheats are based on a game mode
+All of the cheats are based on a game mode.
+
+So if you chose a gold quest game mode then you go to the gold folder ![image](https://user-images.githubusercontent.com/73669084/133948292-c476474b-b79b-4760-866e-96ede980ad91.png) and then use one of the cheats from there
 
 
 # video 
