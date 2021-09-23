@@ -9,3 +9,9 @@ Open console (ctrl + shift + j) and pase the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/tower-defense/getCash.js").then((res) => res.text().then((t) => eval(t)))
 ```
+# changeGameRoun.js
+watch the video here lol: https://streamable.com/9oclww
+Open console (ctrl + shift + j) and pase the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/changeGameRound.js").then((res) => res.text().then((t) => eval(t)))
+```
