@@ -10,11 +10,3 @@ Open console (ctrl + shift + j) and pase the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/addTokens.js").then((res) => res.text().then((t) => eval(t)))
 ```
-
-# alwaysNewBlook.js BETA
-this cheat always opens a new blooket when you buy something from the market. it won't always work. watch this video: https://streamable.com/e03bwv
-
-Open console (ctrl + shift + j) and pase the following:
-```js
-fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/alwaysNewBlook.js").then((res) => res.text().then((t) => eval(t)))
-```
