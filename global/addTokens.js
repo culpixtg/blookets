@@ -26,9 +26,7 @@ async function addTokens() {
         })
     }).then(response => {
         if (response.status == 200) {
-            setTimeout(() => {
-                alert(`${add_tokens} added to your account!`)
-            }, 700);
+            alert(`${add_tokens} added to your account!`)
         } else {
             alert('Tokens were not added. Please make an issue https://github.com/glixzzy/blooket-hack/issues')
         };
