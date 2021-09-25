@@ -9,3 +9,13 @@ Open console (ctrl + shift + j) and pase the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/gold/getGold.js").then((res) => res.text().then((t) => eval(t)))
 ```
+
+# chest-ESP.js
+you can only run this code when you are on the prize page, where you see 3 chests and then you should run the code and stay in the console.
+
+Once you run the code it should log this in the console: ![image](https://user-images.githubusercontent.com/73669084/134756277-2f370c57-1203-41fc-872d-64ccc3abb6ac.png)
+
+Open console (ctrl + shift + j) and pase the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/gold/chest-ESP.js").then((res) => res.text().then((t) => eval(t)))
+```
