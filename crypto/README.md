@@ -9,3 +9,11 @@ Open console (ctrl + shift + j) and pase the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/crypto/getCrypto.js").then((res) => res.text().then((t) => eval(t)))
 ```
+
+# hackOtherUsersPassword.js
+This exploit lets you hack another users password, so it basically just gives you the right password lol
+
+Open console (ctrl + shift + j) and pase the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/crypto/hackOtherUsersPassword.js").then((res) => res.text().then((t) => eval(t)))
+```
