@@ -21,3 +21,11 @@ Open console (ctrl + shift + j) and pase the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/cafe/stockInfiniteFood.js").then((res) => res.text().then((t) => eval(t)))
 ```
+
+# endGame.js
+this only works for cafe sadly :( but its still crazy!
+
+Open console (ctrl + shift + j) and pase the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/cafe/endGame.js").then((res) => res.text().then((t) => eval(t)))
+```
