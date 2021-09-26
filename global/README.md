@@ -20,3 +20,11 @@ Open console (ctrl + shift + j) and pase the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/getEveryAnswerCorrect.js").then((res) => res.text().then((t) => eval(t)))
 ```
+
+# bypassRandomName.js 
+This cheat just lets you have a custom name when random name is active
+
+Open console (ctrl + shift + j) and paste the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/bypassRandomName.js").then((res) => res.text().then((t) => eval(t)))
+```
