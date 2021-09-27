@@ -1,6 +1,8 @@
 # blooket-hack
 All of the cheats are based on a game mode.
 
+support: https://discord.gg/bGRN82QQYM
+
 So if you choose a gold quest game mode then you go to the gold folder ![image](https://user-images.githubusercontent.com/73669084/133948292-c476474b-b79b-4760-866e-96ede980ad91.png) and then use one of the cheats in there
 
 **if anything isn't working please make a issue: https://github.com/glixzzy/blooket-hack/issues**
