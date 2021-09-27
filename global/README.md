@@ -16,7 +16,7 @@ THIS CHEAT IS OVERPOWERED
 
 even if you pick the wrong answer it will say its correct, its literally crazy...
 
-note: **This doesn't work for classic.**
+note: **This doesn't work for classic game mode.**
 
 Open console (ctrl + shift + j) and pase the following:
 ```js
