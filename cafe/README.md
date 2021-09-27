@@ -23,6 +23,7 @@ fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/cafe/stockIn
 ```
 
 # endGame.js
+**THIS ONLY ENDS THE GAME FOR YOU** 
 this only works for cafe sadly :( but its still crazy!
 
 Open console (ctrl + shift + j) and pase the following:
