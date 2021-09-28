@@ -17,7 +17,7 @@ Once you run the code it should give you an alert: ![image](https://user-images.
 
 sorry for the shit display for chest esp :(
 
-Open console (ctrl + shift + j) and pase the following:
+Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/gold/chest-ESP.js").then((res) => res.text().then((t) => eval(t)))
 ```
