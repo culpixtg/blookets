@@ -5,19 +5,19 @@ if you run one of the codes and get this: ![image](https://user-images.githubuse
 
 
 # getCoints.js
-Open console (ctrl + shift + j) and pase the following:
+Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/cafe/getCoins.js").then((res) => res.text().then((t) => eval(t)))
 ```
 
 # infiniteFoodLevel.js
-Open console (ctrl + shift + j) and pase the following:
+Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/cafe/infiniteFoodLevel.js").then((res) => res.text().then((t) => eval(t)))
 ```
 
 # stockInfiniteFood.js
-Open console (ctrl + shift + j) and pase the following:
+Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/cafe/stockInfiniteFood.js").then((res) => res.text().then((t) => eval(t)))
 ```
@@ -26,7 +26,7 @@ fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/cafe/stockIn
 **THIS ONLY ENDS THE GAME FOR YOU** 
 this only works for cafe sadly :( but its still crazy!
 
-Open console (ctrl + shift + j) and pase the following:
+Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/cafe/endGame.js").then((res) => res.text().then((t) => eval(t)))
 ```
