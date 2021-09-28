@@ -16,3 +16,6 @@ https://user-images.githubusercontent.com/73669084/133946393-fdb99491-40b1-470e-
 3. Delete everything in the url box
 4. Type "javascript:"
 5. Paste in the code
+
+# bookmarklet video tutorial
+https://streamable.com/t4u7i7
