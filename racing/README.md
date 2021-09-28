@@ -5,7 +5,7 @@ if you run one of the codes and get this: ![image](https://user-images.githubuse
 
 
 # instantWin.js
-Open console (ctrl + shift + j) and pase the following:
+Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/racing/instantWin.js").then((res) => res.text().then((t) => eval(t)))
 ```
