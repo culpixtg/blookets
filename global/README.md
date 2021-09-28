@@ -18,7 +18,7 @@ even if you pick the wrong answer it will say its correct, its literally crazy..
 
 note: **This doesn't work for classic game mode.**
 
-Open console (ctrl + shift + j) and pase the following:
+Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/getEveryAnswerCorrect.js").then((res) => res.text().then((t) => eval(t)))
 ```
