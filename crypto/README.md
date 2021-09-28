@@ -5,7 +5,7 @@ if you run one of the codes and get this: ![image](https://user-images.githubuse
 
 
 # getCrypto.js
-Open console (ctrl + shift + j) and pase the following:
+Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/crypto/getCrypto.js").then((res) => res.text().then((t) => eval(t)))
 ```
@@ -13,7 +13,7 @@ fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/crypto/getCr
 # hackOtherUsersPassword.js
 This exploit lets you hack another users password, so it basically just gives you the right password lol
 
-Open console (ctrl + shift + j) and pase the following:
+Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/crypto/hackOtherUsersPassword.js").then((res) => res.text().then((t) => eval(t)))
 ```
