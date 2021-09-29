@@ -23,7 +23,7 @@ fetch("https://raw.githubusercontent.com/glixzzy/blooket-cheat/main/cafe/stockIn
 ```
 
 # endGame.js
-this only works for cafe sadly :( but its still crazy!
+this only works for cafe sadly :(
 
 Open console (ctrl + shift + j) and paste the following:
 ```js
