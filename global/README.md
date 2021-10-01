@@ -30,3 +30,12 @@ Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/bypassRandomName.js").then((res) => res.text().then((t) => eval(t)))
 ```
+# spamOpenBoxes.js
+When it asks you to open a box always include the whole box name.
+
+for example: Aquatic Box
+
+Open console (ctrl + shift + j) and paste the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/spamOpenBoxes.js").then((res) => res.text().then((t) => eval(t)))
+```
