@@ -24,7 +24,9 @@ fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/getEve
 ```
 
 # bypassRandomName.js 
-This cheat just lets you have a custom name when random name is active
+This cheat just lets you have a custom name when random name is active;
+
+note: **Box names are case sensitive**
 
 Open console (ctrl + shift + j) and paste the following:
 ```js
