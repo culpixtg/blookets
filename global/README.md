@@ -24,9 +24,20 @@ fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/getEve
 ```
 
 # bypassRandomName.js 
-This cheat just lets you have a custom name when random name is active
+This cheat just lets you have a custom name when random name is active;
+
+note: **Box names are case sensitive**
 
 Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/bypassRandomName.js").then((res) => res.text().then((t) => eval(t)))
+```
+# spamOpenBoxes.js
+When it asks you to open a box always include the whole box name.
+
+for example: Aquatic Box
+
+Open console (ctrl + shift + j) and paste the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/spamOpenBoxes.js").then((res) => res.text().then((t) => eval(t)))
 ```
