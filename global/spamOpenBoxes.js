@@ -1,52 +1,58 @@
 async function getName(authToken) {
-    const response = await fetch('https://api.blooket.com/api/users/verify-token?token=JWT+' + authToken.replace('JWT ', ''));
+    const response = await fetch('https://api.blooket.com/api/users/verify-token?token=JWT+' + authToken);
     const data = await response.json();
+
     return data.name
 };
-var box = prompt('Which box would you like to open?')
-var amount = parseInt(prompt('How many boxes would you like to open?'))
-async function openBoxes(token, box, amount) {
-    var name = await getName(token),
-        tokens = await fetch("https://api.blooket.com/api/users/tokens?name=" + name),
-        price = getPrice(box),
-        opens = Math.floor(amount * price > tokens ? Math.floor(tokens / 25) : amount * price / 25)
-    let interval = setInterval(function () {
-        if (!opens) return clearInterval(interval)
-        fetch("https://api.blooket.com/api/users/unlockblook", {
-            "headers": {
-                "accept": "application/json, text/plain, /",
-                "accept-language": "en-US,en;q=0.9",
-                "authorization": token,
-                "content-type": "application/json;charset=UTF-8",
-                "sec-fetch-dest": "empty",
-                "sec-fetch-mode": "cors",
-                "sec-fetch-site": "same-site",
-                "sec-gpc": "1"
-            },
-            "referrer": "https://www.blooket.com/",
-            "referrerPolicy": "strict-origin-when-cross-origin",
-            "body": `{"name":"${name}","box":"${box}"}`,
-            "method": "PUT",
-            "mode": "cors",
-            "credentials": "include"
-        }).then(function (response) {
-            if (response.status != 200) return clearInterval(interval)
-        }).catch(function (e) {
-            clearInterval(interval)
-        });
-        opens--
-        if (!opens) clearInterval(interval)
-    }, 128)
-}
 
-function getPrice(box) {
-    switch (box.toLowerCase()) {
-        case "aquatic": return 25
-        case "bot": return 20
-        case "space": return 20
-        case "breakfast": return 15
-        case "medieval": return 15
-        case "wonderland": return 20
-    }
-}
-openBoxes(localStorage.token, box, amount)
+async function openBoxes() {
+    const box = prompt('What box would you like to open?');
+    const myToken = localStorage.token.split('JWT ')[1];
+    const blooketName = await getName(myToken);
+
+    let interval = setInterval(async () => {
+        
+        if (box.includes('Box')) {
+            const _box = box.split(' Box')[0];
+
+            const response = await fetch('https://api.blooket.com/api/users/unlockblook', {
+                method: "PUT",
+                headers: {
+                    "referer": "https://www.blooket.com/",
+                    "content-type": "application/json",
+                    "authorization": localStorage.token
+                },
+                body: JSON.stringify({
+                    box: _box,
+                    name: blooketName
+                }),
+            });
+            const data = await response.json();
+
+            if (response.status == 500) {
+                alert('You don\'t have enough tokens to buy this box.');
+                clearInterval(interval)
+            };
+
+            console.log({ blook: data.unlockedBlook, tokens: data.tokens, newBlook: data.isNewBlook });
+
+        } else {
+            alert('Please include full box name, refresh your page now. EXAMPLE: Aquatic Box');
+            clearInterval(interval)
+        };
+
+    }, 1000); //this is ms so 1000ms equals 1 second. You can edit the ms if you'd like to
+};
+
+async function checkTokens() {
+    const myToken = localStorage.token.split('JWT ')[1];
+    const response = await fetch('https://api.blooket.com/api/users/tokens?name=' + await getName(myToken))
+    const data = await response.text();
+
+    if (data == 0) {
+        alert('You have 0 tokens, you can\'t buy any boxes.')
+    };
+};
+
+openBoxes();
+checkTokens();
