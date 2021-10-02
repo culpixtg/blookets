@@ -28,7 +28,7 @@ async function addTokens() {
         if (response.status == 200) {
             alert(`${add_tokens} added to your account!`)
         } else {
-            alert('Tokens were not added. Please make an issue https://github.com/glixzzy/blooket-hack/issues')
+            alert('Tokens were not added. Probably because you already added 500 tokens to your account already..')
         };
     });
 
