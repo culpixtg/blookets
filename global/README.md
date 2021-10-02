@@ -41,3 +41,11 @@ Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/spamOpenBoxes.js").then((res) => res.text().then((t) => eval(t)))
 ```
+
+# getAllBlooksInGame.js
+This cheat gives you all blooks only in game when you are /play/lobby page.
+
+Open console (ctrl + shift + j) and paste the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/getAllBlooksInGame.js").then((res) => res.text().then((t) => eval(t)))
+```
