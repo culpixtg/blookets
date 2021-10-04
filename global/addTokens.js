@@ -5,7 +5,7 @@ async function getName(authToken) {
     return data.name
 };
 
-function addTokens() {
+async function addTokens() {
     const add_tokens = prompt('How many tokens do you want to add to your account? (500 daily)');
     const myToken = localStorage.token.split('JWT ')[1];
 
