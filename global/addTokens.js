@@ -13,7 +13,7 @@ async function addTokens() {
         alert('You can add up to 500 tokens daily')
     }
 
-    fetch('https://api.blooket.com/api/users/addtokens', {
+    const response = await fetch('https://api.blooket.com/api/users/addtokens', {
         method: "PUT",
         headers: {
             "referer": "https://www.blooket.com/",
@@ -24,13 +24,13 @@ async function addTokens() {
             addedTokens: add_tokens,
             name: await getName(myToken)
         })
-    }).then(response => {
-        if (response.status == 200) {
-            alert(`${add_tokens} added to your account!`)
-        } else {
-            alert('Tokens were not added. Probably because you already added 500 tokens to your account already..')
-        };
     });
+
+    if (response.status == 200) {
+        alert(`${add_tokens} added to your account!`);
+    } else {
+        alert('An error occured.');
+    };
 
 };
 
