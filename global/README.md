@@ -57,6 +57,10 @@ fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/getAll
 # floodGames.js
 You can't add more than 100 bots.
 
+tutorial: 
+https://user-images.githubusercontent.com/73669084/135941885-6ed837b9-197c-4e92-88fb-43abadfd6625.mp4
+
+
 Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/floodGames.js").then((res) => res.text().then((t) => eval(t)))
