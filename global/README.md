@@ -57,7 +57,9 @@ fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/getAll
 # floodGames.js
 You can't add more than 100 bots.
 
-note: **please install this extension https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino so flooding can work and then look at the video below** 
+note: **please install this extension https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino so flooding can work** 
+
+Once you installed the extension, click on the extension icon. It should look like this: https://i.imgur.com/TFbv9M3.png **(then watch the video below)**
 
 tutorial: 
 https://user-images.githubusercontent.com/73669084/135941885-6ed837b9-197c-4e92-88fb-43abadfd6625.mp4
