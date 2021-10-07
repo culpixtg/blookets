@@ -1,3 +1,9 @@
+# unlockAllBlooksPermanently.js
+Open console (ctrl + shift + j) and paste the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/unlockAllBlooksPermanently.js").then((res) => res.text().then((t) => eval(t)))
+```
+
 # blooket-hack
 All of the cheats are based on a game mode.
 
