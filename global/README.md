@@ -65,3 +65,11 @@ Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/floodGames.js").then((res) => res.text().then((t) => eval(t)))
 ```
+
+# spoofPlus.js
+This cheat doesn't give you any special abilities, only spoofs it
+
+Open console (ctrl + shift + j) and paste the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/spoofPlus.js").then((res) => res.text().then((t) => eval(t)))
+```
