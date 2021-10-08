@@ -30,7 +30,7 @@ https://streamable.com/t4u7i7
 
 Note: Before you make an issue or ask someone on the support server, please go through the FAQ to check if it is in here. Thank you.
 
-Q: How do I run the code?
+**Q: How do I run the code?**
 
 A: There are two main ways to run the code on this repository. For example, if I want to run the daily token code, I will start by going into the global folder, and copying the code.
 
@@ -46,21 +46,21 @@ It is possible that you will see a notification called "paused in debugger" and 
 After you do this, press the blue button with a triangle in the notification, and it will go away. Then you can do the steps outlined above and it will run.
 
 
-Q: The all permanent blooks isn't working!
+**Q: The all permanent blooks isn't working!**
 
 A: Yes, it was a joke and does not permanently work.
 
 
-Q: Is there any way to bypass the 500 token per day limit or change the time before reset timer?
+**Q: Is there any way to bypass the 500 token per day limit or change the time before reset timer?**
 
 A: Nope! This is simply not possible, because it is server-side.
 
 
-Q: Can I make my custom blook skins and use them?
+**Q: Can I make my custom blook skins and use them?**
 
 A: No, this is also currently not possible.
 
-Q: Ahhh! My account was banned! Was I just banned for hacking blooket?
+**Q: Ahhh! My account was banned! Was I just banned for hacking blooket?**
 ![Screen Shot 2021-10-07 at 6 39 06 PM](https://user-images.githubusercontent.com/92130749/136484808-0dada02e-ae99-49cd-b036-d2a13c8c9684.png)
 
 A: Probably not, this is a bug that is going around that doesn't let you in your account for a short period of time. The best thing to do is just wait it out.
