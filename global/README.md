@@ -69,6 +69,8 @@ fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/floodG
 # spoofPlus.js
 This cheat doesn't give you any special abilities, only spoofs it
 
+Idea from: https://github.com/DarklordX89X/blooket
+
 Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/spoofPlus.js").then((res) => res.text().then((t) => eval(t)))
