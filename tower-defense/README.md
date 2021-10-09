@@ -15,3 +15,9 @@ Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/changeGameRound.js").then((res) => res.text().then((t) => eval(t)))
 ```
+# allFree.js
+(You need the initial value to actually get the tower, but it won't take any coins)
+Open console (ctrl + shift + j) and paste the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/allFree.js").then((res) => res.text().then((t) => eval(t)))
+```
