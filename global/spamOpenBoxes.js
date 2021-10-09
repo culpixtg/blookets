@@ -10,7 +10,7 @@ async function openBoxes() {
     const myToken = localStorage.token.split('JWT ')[1];
     const blooketName = await getName(myToken);
 
-    let interval = setInterval(async () => {
+    const interval = setInterval(async () => {
         if (box.includes('Box')) {
             const _box = box.split(' Box')[0];
 
