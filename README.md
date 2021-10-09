@@ -28,7 +28,7 @@ Note: Before you make an issue or ask someone on the support server, please go t
 
 A: There are two main ways to run the code on this repository. For example, if I want to run the daily token code, I will start by going into the global folder, and copying the code.
 
-Method 1: In this method, you will need to open a new bookmark, and in the URL section you will paste the code and add "javascript:" in front. So I would type "javascript: fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/addTokens.js").then((res) => res.text().then((t) => eval(t)))" into the URL section. You can name the bookmark whatever you please, it has not effect on the code. To run the bookmark, simply click the bookmark on the desired page.
+Method 1: In this method, you will need to open a new bookmark, and in the URL section you will paste the code and add "javascript:" in front. So I would type "`javascript: fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/addTokens.js").then((res) => res.text().then((t) => eval(t)))`" into the URL section. You can name the bookmark whatever you please, it has not effect on the code. To run the bookmark, simply click the bookmark on the desired page.
 
 Method 2: In this method, you will need to open inspect element. Paste the desired code into the console, and hit enter to run. <img width="206" alt="Screen Shot 2021-10-07 at 6 24 23 PM" src="https://user-images.githubusercontent.com/92130749/136483638-f0b4e11c-a7f8-46af-ae53-e94e38397c94.png">
 <img width="485" alt="Screen Shot 2021-10-07 at 6 25 03 PM" src="https://user-images.githubusercontent.com/92130749/136483687-5a87104c-fc83-4aa3-be7e-dd5d96906ef1.png">
