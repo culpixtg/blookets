@@ -22,8 +22,27 @@ Open console (ctrl + shift + j) and paste the following:
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/allFree.js").then((res) => res.text().then((t) => eval(t)))
 ```
 # removeEnemies.js
-(You need the initial value to actually get the tower, but it won't take any coins)
 Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/removeEnemies.js").then((res) => res.text().then((t) => eval(t)))
+```
+# getDamage.js
+Open console (ctrl + shift + j) and paste the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/getDamage.js").then((res) => res.text().then((t) => eval(t)))
+```
+# removeDucks.js
+Open console (ctrl + shift + j) and paste the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/removeDucks.js").then((res) => res.text().then((t) => eval(t)))
+```
+# removeObsticles.js
+Open console (ctrl + shift + j) and paste the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/removeObsticles.js").then((res) => res.text().then((t) => eval(t)))
+```
+# sellForTrueValue.js
+Open console (ctrl + shift + j) and paste the following:
+```js
+fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/sellForTrueValue.js").then((res) => res.text().then((t) => eval(t)))
 ```
