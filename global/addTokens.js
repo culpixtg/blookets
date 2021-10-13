@@ -13,7 +13,7 @@ async function addTokens() {
         alert('You can add up to 500 tokens daily')
     }
 
-    const response = await fetch('https://api.blooket.com/api/users/addtokens', {
+    const response = await fetch('https://api.blooket.com/api/users/add-rewards', {
         method: "PUT",
         headers: {
             "referer": "https://www.blooket.com/",
@@ -21,8 +21,9 @@ async function addTokens() {
             "authorization": localStorage.token
         },
         body: JSON.stringify({
+            name: await getName(myToken),
             addedTokens: add_tokens,
-            name: await getName(myToken)
+            addedXp: 300
         })
     });
 
