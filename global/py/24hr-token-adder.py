@@ -2,7 +2,7 @@ import datetime
 import requests
 import time
 
-authToken = "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYXdnbmlpMjEiLCJzdHJpcGUiOiJjdXNfS1A2N3BLTDVLM1c1Q2UiLCJwbGFuIjoiU3RhcnRlciIsImdhbWVzUGxheWVkIjowLCJlbWFpbCI6ImZpYW5AbmllYS5jb20iLCJkYXRlQ3JlYXRlZCI6IjIwMjEtMTAtMTRUMDA6MzY6MTQuODQ2WiIsInJvbGUiOiJUZWFjaGVyIiwiaGFzUGFzc3dvcmQiOnRydWUsImlhdCI6MTYzNDE3MTc3NiwiZXhwIjoxNjM0Nzc2NTc2fQ.GRd9PxbwYX1UG6sleXDoV4YgA67Lq5jIOh7ld7KlFn4" # add your blooket token in string
+authToken = "x" # add your blooket token in string
 
 
 def getName(token):
