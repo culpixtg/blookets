@@ -6,6 +6,9 @@ if you run one of the codes and get this: ![image](https://user-images.githubuse
 
 
 # addTokens.js
+**note:** blooket changed the url to get tokens, so this script adds tokens and max xp to your account. You can get 300 xp a day.
+
+
 Open console (ctrl + shift + j) and pase the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/addTokens.js").then((res) => res.text().then((t) => eval(t)))
