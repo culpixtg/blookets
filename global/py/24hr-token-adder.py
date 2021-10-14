@@ -32,7 +32,7 @@ def getCreatedDate():
 
 
 def addTokens():
-    getData = getLastTokenDate()
+    ltd = getLastTokenDate()
     blooketName = getName(authToken)
 
     request_url = "https://api.blooket.com/api/users/add-rewards"
@@ -42,16 +42,16 @@ def addTokens():
         "addedXp": 300
     }
 
-    if getData[0].day == getData[1].day + 1:
+    if ltd[0].day == ltd[1].day + 1:
         try:
             r = requests.put(request_url, request_data, headers={
                              "authorization": authToken})
             print(f"Rewarded {blooketName} 500 tokens")
         except Exception as e:
             print(e)
-    elif getData[0].day != getData[1].day + 1:
+    elif ltd[0].day != ltd[1].day + 1:
         print(f"{blooketName} has already earned max tokens in the past 24 hours!")
-    elif (getCreatedDate().year, getCreatedDate().month, getCreatedDate().day) == (getData[1].year, getData[1].month, getData[1].day):
+    elif (getCreatedDate().year, getCreatedDate().month, getCreatedDate().day) == (ltd[1].year, ltd[1].month, ltd[1].day):
         try:
             r = requests.put(request_url, request_data, headers={
                              "authorization": authToken})
