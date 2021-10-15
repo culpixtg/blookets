@@ -2,7 +2,7 @@ import datetime
 import requests
 import time
 
-authToken = "blooket token here"  # add your blooket token in string
+authToken = ""  # add your blooket token in string
 
 
 def getName(token):
@@ -62,4 +62,4 @@ def addTokens():
 
 while True:
     addTokens()
-    time.sleep(86400000)
+    time.sleep(86400)
