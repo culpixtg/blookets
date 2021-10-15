@@ -6,8 +6,7 @@ authToken = ""  # add your blooket token in string
 
 
 def getName(token):
-    r = requests.get('https://api.blooket.com/api/users/verify-token',
-                     params={"token": f"{token}"})
+    r = requests.get(f'https://api.blooket.com/api/users/verify-token?token={token}')
 
     return r.json()["name"]
 
