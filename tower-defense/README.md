@@ -26,11 +26,6 @@ Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/removeEnemies.js").then((res) => res.text().then((t) => eval(t)))
 ```
-# getDamage.js
-Open console (ctrl + shift + j) and paste the following:
-```js
-fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/getDamage.js").then((res) => res.text().then((t) => eval(t)))
-```
 # removeDucks.js
 Open console (ctrl + shift + j) and paste the following:
 ```js
