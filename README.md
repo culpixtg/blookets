@@ -8,6 +8,8 @@ So if you choose a gold quest game mode then you go to the gold folder ![image](
 **If anything isn't working please make a issue after checking with the FAQ: https://github.com/glixzzy/blooket-hack/issues**
 
 # How to run
+note: **TURN YOUR AD BLOCKER OFF OR IT WON'T WORK!**
+
 Open console and paste this: 
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/main.js")
