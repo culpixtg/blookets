@@ -3,8 +3,6 @@ All of the cheats are based on a game mode.
 
 **Support Discord Server: https://discord.gg/bGRN82QQYM**
 
-So if you choose a gold quest game mode then you go to the gold folder ![image](https://user-images.githubusercontent.com/73669084/133948292-c476474b-b79b-4760-866e-96ede980ad91.png) and then use one of the cheats in that folder.
-
 **If anything isn't working please make a issue after checking with the FAQ: https://github.com/glixzzy/blooket-hack/issues**
 
 # How to run
@@ -21,15 +19,14 @@ fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/main.js")
 https://user-images.githubusercontent.com/73669084/137641316-ad4f1cbb-0f3d-46e2-83a7-74b7e8b9dd3c.mp4
 
 
-# Without the console (bookmarklet) tutorial:
+# Bookmarklet tutorial:
+https://streamable.com/t4u7i7
+
 1. Make a bookmark (the star on the right side of the url bar if you are using chrome)
 2. Click on more at the bottom left corner
 3. Delete everything in the url box
 4. Type `javascript:`
 5. Paste in the code
-
-# Bookmarklet Video Tutorial:
-https://streamable.com/t4u7i7
 
 # Frequently Asked Questions
 
