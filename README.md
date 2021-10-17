@@ -18,6 +18,8 @@ fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/main.js")
 ```
 
 # Video Tutorial
+https://user-images.githubusercontent.com/73669084/137641316-ad4f1cbb-0f3d-46e2-83a7-74b7e8b9dd3c.mp4
+
 
 # Without the console (bookmarklet) tutorial:
 1. Make a bookmark (the star on the right side of the url bar if you are using chrome)
