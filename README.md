@@ -46,7 +46,7 @@ A: Nope! This is simply not possible, because it is server-side.
 
 **Q: Can I make custom blook skins and use them in game?**
 
-A: Yes, this is possible even without these hacks! If you gain enough xp through grinding or using the addTokens hack, you will be able to make your own custom blooks under the Stats tab on Blooket.
+A: Yes and no. This is possible even without these hacks, if you gain enough xp through grinding or using the addTokens hack, you will be able to make your own custom blooks under the Stats tab on Blooket. But if you are trying to upload your own fully custom blooks, this is not currently possible, as all blooks are server-side.
 
 **Q: Ahhh! My account was banned! Was I just banned for hacking blooket?**
 ![Screen Shot 2021-10-07 at 6 39 06 PM](https://user-images.githubusercontent.com/92130749/136484808-0dada02e-ae99-49cd-b036-d2a13c8c9684.png)
