@@ -1,4 +1,4 @@
-**Discord server: https://discord.gg/E7cmjUG9Gs** discord server server is not related to this repo
+**Discord server: https://discord.gg/E7cmjUG9Gs** discord server is not related to this repo
 
 # Blooket-Hack
 All of the cheats are based on a game mode.
