@@ -1,6 +1,8 @@
 # Blooket-Hack
 All of the cheats are based on a game mode.
 
+**Discord server: https://discord.gg/E7cmjUG9Gs** discord server server is not related to this repo
+
 **If anything isn't working please make a issue after checking with the FAQ: https://github.com/glixzzy/blooket-hack/issues**
 
 **scroll down for video tutorial**
