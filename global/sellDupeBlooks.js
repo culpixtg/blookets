@@ -6,7 +6,13 @@ async function getName(authToken) {
 };
 
 async function getBlooks(blooketName) {
-    const response = await fetch('https://api.blooket.com/api/users/blooks?name=' + blooketName);
+    const response = await fetch('https://api.blooket.com/api/users/blooks?name=' + blooketName, {
+        headers: {
+            "referer": "https://www.blooket.com/",
+            "content-type": "application/json",
+            "authorization": localStorage.token
+        }
+    });
     const data = await response.json();
 
     return data
