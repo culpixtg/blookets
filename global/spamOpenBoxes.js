@@ -2,7 +2,13 @@ const capitalize = (text) => text.charAt(0).toUpperCase() + text.slice(1);
 (async (args) => {
     let [box, amount] = args
     var name = JSON.parse(atob(localStorage.token.split('.')[1])).name,
-        tokens = await fetch("https://api.blooket.com/api/users/tokens?name=" + name),
+        tokens = await fetch("https://api.blooket.com/api/users/tokens?name=" + name, {
+            headers: {
+                "referer": "https://www.blooket.com/",
+                "content-type": "application/json",
+                "authorization": localStorage.token
+            }
+        }),
         price = ({
             spooky: 25,
             aquatic: 25,
