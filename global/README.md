@@ -4,6 +4,8 @@ All these cheats in the folder can be used outside games
 
 # addTokens.js
 
+note: **This cheat also includes adding max xp for the day**
+
 Open console (ctrl + shift + j) and paste the following:
 ```js
 fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/addTokens.js").then((res) => res.text().then((t) => eval(t)))
